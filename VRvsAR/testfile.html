@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<head>
+    <title>VirtualvsAugmented.com</title>
+    <link rel="stylesheet" type="text/css" href="testfile.css">
+</head>
+
+<body>
+
+    <script src="testfile.js"></script>
+
+    <div style="text-align: center; font-family: cursive;">
+        <h3>“...VR can take you anywhere, AR can bring anything to you…” - Clay Bavor</h3>
+    </div>
+
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="Comparison(event, 'Virtual')">Virtual Reality</button>
+        <button class="tablinks" onclick="Comparison(event, 'Mixed')">Mixed Reality</button>
+        <button class="tablinks" onclick="Comparison(event, 'Augmented')">Augmented Reality</button>
+        <div>
+            <button class="tablinks" onclick="Comparison(event, 'Versus')" style="width: 100%" id="defaultOpen">Virtual
+                vs. Augmented</button>
+        </div>
+    </div>
+
+    <!-- Tab content -->
+
+    <!-- Content for tab 1 -->
+    <div id="Virtual" class="tabcontent">
+
+        <h1 style="text-align:center; margin-top: 0px;">Virtual Reality</h1>
+
+        <body>
+
+            <div class="slideshow-container1">
+
+                <div class="mySlides1 fade1">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi0_-z3-ZXfAhWyTt8KHVV1DrIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-018-00894-w&psig=AOvVaw1IeXWgt_knszaeDN-CoGFQ&ust=1544554912892982"
+                        target="_blank">
+                        <img src="Images/DIG1.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides1 fade1">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwieisaH-pXfAhXOdN8KHXAbCKwQjRx6BAgBEAU&url=https%3A%2F%2Fstudybreaks.com%2Ftvfilm%2Fvirtual-reality-world-not-ready%2F&psig=AOvVaw1IeXWgt_knszaeDN-CoGFQ&ust=1544554912892982"
+                        target="_blank">
+                        <img src="Images/DIG2.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides1 fade1">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiIne-A-5XfAhXwUt8KHW47AdQQjRx6BAgBEAU&url=https%3A%2F%2Fmashable.com%2F2018%2F01%2F22%2Fready-player-one-steven-spielberg-virtual-reality%2F&psig=AOvVaw1IeXWgt_knszaeDN-CoGFQ&ust=1544554912892982"
+                        target="_blank">
+                        <img src="Images/DIG3.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides1 fade1">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi67Km76JjfAhXonuAKHYEoBGsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Ffunny%2Fcomments%2F2tigh6%2Fvirtual_reality_horror%2F&psig=AOvVaw2pwAJRpO_5juJxPfP2ydyv&ust=1544653042300273"
+                        target="_blank">
+                        <img src="Images/VRGIF.gif" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides1 fade1">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjE1IPO75jfAhWOmeAKHSnbA9wQjRx6BAgBEAU&url=https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FQ33409391&psig=AOvVaw0BXI-yueultj1-iPQO_8c9&ust=1544654856912479"
+                        target="_blank">
+                        <img src="Images/DIG5.png" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides1 fade1">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwib88Wy75jfAhWqTt8KHYs2DP0QjRx6BAgBEAU&url=https%3A%2F%2Fwww.imedicalapps.com%2F2015%2F11%2Fgoogle-cardboard-surgery-virtual-reality-app%2F&psig=AOvVaw1lkmojTqXGwkvH43j8RtM6&ust=1544655245173215"
+                        target="_blank">
+                        <img src="Images/DIG6.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
+                <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot1" onclick="currentSlide1(1)"></span>
+                <span class="dot1" onclick="currentSlide1(2)"></span>
+                <span class="dot1" onclick="currentSlide1(3)"></span>
+                <span class="dot1" onclick="currentSlide1(4)"></span>
+                <span class="dot1" onclick="currentSlide1(5)"></span>
+                <span class="dot1" onclick="currentSlide1(6)"></span>
+            </div>
+
+            <script>
+                var slideIndex1 = 1;
+                showSlides1(slideIndex1);
+
+                function plusSlides1(n1) {
+                    showSlides1(slideIndex1 += n1);
+                }
+
+                function currentSlide1(n1) {
+                    showSlides1(slideIndex1 = n1);
+                }
+
+                function showSlides1(n1) {
+                    var i;
+                    var slides1 = document.getElementsByClassName("mySlides1");
+                    var dots1 = document.getElementsByClassName("dot1");
+                    if (n1 > slides1.length) { slideIndex1 = 1 }
+                    if (n1 < 1) { slideIndex1 = slides1.length }
+                    for (i = 0; i < slides1.length; i++) {
+                        slides1[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots1.length; i++) {
+                        dots1[i].className = dots1[i].className.replace(" active", "");
+                    }
+                    slides1[slideIndex1 - 1].style.display = "block";
+                    dots1[slideIndex1 - 1].className += " active";
+                }
+            </script>
+
+            <h2><b>What Is Virtual Reality?</b></h2>
+            <div>
+                <p>
+                    Virtual reality is a "full dive" experience that replaces your surroundings with a virtual
+                    environment. Most VR gear
+                    is non-transparent headsets that use six-degrees-of-freedom (6DOF) motion tracking made possible by
+                    external sensors. These detect any movement in the body; however that mobility is limited by a few
+                    square meters of space, and does not counteract the possibilities of bumping into objects within
+                    your
+                    real surroundings. Some headsets only function on three-degrees-of-freedom where only the movement
+                    and direction of the head is considered.
+                </p>
+            </div>
+
+            <div>Technology: gyroscopes, motion sensors, screens, lightweight processors</div>
+
+            <h2><b>How Does Healthcare Evolve?</b></h2>
+            <div>
+                <p>
+                    The use of VR technology allows the opportunity for medical students and professionals to practice
+                    their craft, more specifically within surgical and life-threatening situations that can not be
+                    recreated in practice for obvious reasons. Virtual headsets could also simulate a meeting room for
+                    both patients and medical interviews, for instances where individuals would not have access to see
+                    each
+                    other in person. Future applications for this field also include general examinations and therapy
+                    sessions at the comfort of one’s home.
+                </p>
+            </div>
+
+            <h2><b>Virtual Reality Marketing</b></h2>
+            <div>
+                <p>
+                    A 360-degree virtual reproduction of any desired location is a great way of enticing curious
+                    travelers who may have doubts towards buying their tickets. Museums such as the Louvre already
+                    offer virtual
+                    tours which showcase some of their artworks and installations. With VR, online marketing companies
+                    could provide a better look within products viewed by customers, and it is notably useful for
+                    real-estate and tourist attractions that rely on visuals as well as their use of space.
+                </p>
+            </div>
+
+            <h2><b>Virtual Reality And Education</b></h2>
+            <div>
+                <p>
+                    From schools, universities, to training stations, virtual reality has slowly mounted its way to
+                    becoming a notable part of education. As mentioned, students have the ability to immerse themselves
+                    in virtual locations and situations, that would otherwise be unattainable in real life. VR displays
+                    detailed and interactive simulations that challenges most 2-D illustrations, ranging from human
+                    anatomy, the locations of stars within a galaxy, and almost any kind of data that could be
+                    visualized in three dimensions.
+                </p>
+            </div>
+
+            <div style="text-align:center">
+                <img src="Images/VRTimeline.jpg" align: center>
+            </div>
+
+            <div style="text-align: center;">
+                <iframe width="30%" height="315" style="margin:10px;" src="https://www.youtube.com/embed/i4Zt3JZejbg">
+                </iframe>
+                <iframe width="30%" height="315" style="margin:10px;" src="https://youtube.com/embed/lj6tVqbp9bk">
+                </iframe>
+                <iframe width="30%" height="315" style="margin:10px;" src="https://youtube.com/embed/43mA_ypfwKg">
+                </iframe>
+            </div>
+    </div>
+
+
+    <!-- Content for tab 2 -->
+    <div id="Mixed" class="tabcontent">
+        <h1 style="text-align:center; margin-top: 0px;">Mixed Reality</h1>
+        <div style="text-align: center;">
+            <img src="Images/MRExplanation.png" alt="mixed" style="width:800px;">
+        </div>
+    </div>
+
+
+    <!-- Content for tab 3 -->
+    <div id="Augmented" class="tabcontent">
+
+        <h1 style="text-align:center; margin-top: 0px;">Augmented Reality</h1>
+
+        <body>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjb2POP-JXfAhVtk-AKHZhxCFUQjRx6BAgBEAU&url=https%3A%2F%2Fvrscout.com%2Fnews%2Faugmented-reality-app-1-dollar-bill-tour-white-house%2F&psig=AOvVaw1kJtde_rHv23Jp-RdX72_j&ust=1544554510553302"
+                        target="_blank">
+                        <img src="Images/AugmentedDIG.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj51K-y-JXfAhUIm-AKHXHcCTAQjRx6BAgBEAU&url=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fbernardmarr%2F2018%2F07%2F30%2F9-powerful-real-world-applications-of-augmented-reality-ar-today%2F&psig=AOvVaw1kJtde_rHv23Jp-RdX72_j&ust=1544554510553302"
+                        target="_blank">
+                        <img src="Images/AugmentedDIG2.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiSi6jf-JXfAhWNmuAKHS3ICtQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.tlnt.com%2Far-is-already-in-your-workplace-how-will-hr-use-it%2F&psig=AOvVaw1kJtde_rHv23Jp-RdX72_j&ust=1544554510553302"
+                        target="_blank">
+                        <img src="Images/AugmentedDIG3.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjE1IPO75jfAhWOmeAKHSnbA9wQjRx6BAgBEAU&url=https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FQ33409391&psig=AOvVaw0BXI-yueultj1-iPQO_8c9&ust=1544654856912479"
+                        target="_blank">
+                        <img src="Images/ARGIF.gif" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjhq4fz-JXfAhWOVN8KHcq0BagQjRx6BAgBEAU&url=https%3A%2F%2Fwww.mediapost.com%2Fpublications%2Farticle%2F323043%2Faugmented-reality-seen-as-beating-out-virtual-real.html&psig=AOvVaw1kJtde_rHv23Jp-RdX72_j&ust=1544554510553302"
+                        target="_blank">
+                        <img src="Images/AugmentedDIG4.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjO-5-d6JjfAhWvmOAKHe_VAXoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.roboticsbusinessreview.com%2Fmanufacturing%2Faugmented-reality-vr-training-tools%2F&psig=AOvVaw08T4b_dUQZFlsjrpvTnVJ3&ust=1544653271459585"
+                        target="_blank">
+                        <img src="Images/AugmentedDIG5.jpg" style="width:100%">
+                    </a>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+
+
+            <h2>What Is Augmented Reality?</h2>
+                <p>
+                    Augmented reality adds to our surroundings rather than completely replacing it. Most AR applications
+                    can easily function on 6DOF by tracking the user’s phone location. AR headsets, which are transparent
+                    in comparison, use camera or laser sensors. AR could definitely enhance one’s experiences with more
+                    mobility but does not offer as much immersion as VR.
+                </p>
+            <div>Technology: mobile device, motion sensors, lightweight processors</div>
+
+            <h2><b>What Are The Applications In Gaming For Augmented Reality?</b></h2>
+            <div>
+                <p>
+                    While also applicable to VR, augmented reality has made far better strides in gaming consoles and
+                    applications, with Pokemon Go being the prime example of its success and popularity. With mobile
+                    devices as its main platform, AR within gaming is extremely accessible and relies on the concept of
+                    having virtual objects or characters become a part of real-world surroundings, which in turn makes
+                    them believable and concrete within a screen.
+                </p>
+            </div>
+
+            <h2><b>Augmented Reality In Retail</b></h2>
+            <div>
+                <p>
+                    The increasing popularity and reliance on online shopping has led developers to think of new and
+                    innovative ways to have their products be tested through the digital lens. AR’s distinctive quality
+                    of allowing real surroundings to be seen can be essential for furniture stores that can show how any
+                    product would look within a given room. The same concept goes for clothing which could be “worn” by
+                    users through the touch of a button.
+                </p>
+            </div>
+
+            <h2><b>How AR Will Help In Navigation And Utilities</b></h2>
+            <div>
+                <p>
+                    Among one of the developing fields in augmented reality is navigation. The brand Google Glass has
+                    spurred interest in wearable AR, with the promise of allowing users to move around and see the real
+                    world while witnessing icons that could help them in navigating direction or even searching
+                    information without having to look down on their phone. The utility of this kind of AR is comparable to smart
+                    watches that eliminate the use of a mobile device for quick and simple actions.
+                </p>
+            </div>
+
+            <div style="text-align:center">
+                <img src="Images/ARTimeline.jpg" align: center>
+            </div>
+
+            <div style="text-align: center;">
+                <iframe width="30%" height="315" style="margin:10px;" src="https://www.youtube.com/embed/kC7OlweCJ8I">
+                </iframe>
+                <iframe width="30%" height="315" style="margin:10px;" src="https://youtube.com/embed/WiT93Iv9eO4">
+                </iframe>
+                <iframe width="30%" height="315" style="margin:10px;" src="https://youtube.com/embed/meiNm8C6DAo">
+                </iframe>
+            </div>
+
+    </div>
+
+    <!-- Content for tab 4 -->
+    <div id="Versus" class="tabcontent" style="padding-top: 30px;">
+
+        <h1 style="text-align:center; margin-top: 0px;">Virtual vs. Augmented</h1>
+
+        <div style=" width:600px; line-height:1.15; font-size: 12px; float: left; margin-right: 30px;">
+            <a href="https://www.statista.com/statistics/615899/global-virtual-and-augmented-reality-headset-sales-revenue/."
+                target="_blank">
+                <img src="Images/ARvsVRstat.png" style="width: 600px; float: left;" align: center>
+            </a>
+            <p>
+                Analysis Group, & KZero. (n.d.). Projected scenarios of virtual and augmented reality headset sales
+                revenue from 2016 to 2020 (in billion U.S. dollars)*. In Statista - The Statistics Portal. Retrieved
+                December 11, 2018
+            </p>
+        </div>
+
+        <div>
+            <h2><b>Similarities Between Virtual And Augmented Reality</b></h2>
+            <div>
+                <p>
+                    Technology for virtual and augmented reality share the same fundamental mechanics when it comes to
+                    track the movements of any given device as well as the programming that goes into the tracking and
+                    development of realistic virtual objects within a digital screen.
+                </p>
+                <p>
+                    Applications also coincide within augmented and virtual reality as companies take advantage of
+                    demand, modifying the any service based on the limitations and positive characteristics of either
+                    side to produce a similar output for each given experience. Although one field may work better with
+                    AR or vice versa, applications in communication, entertainment, and marketing are all obtainable in
+                    both technologies.
+                </p>
+                <p>
+                    Both have applications to science and medicine. Notwithstanding some variations, both AR and VR
+                    have also received similar ratings and criticism when it comes to their use within the entertainment
+                    world. These technologies are receive repeated approvals when it comes to being the main platform
+                    for various games and media that would otherwise not have the same accolade without the immersive
+                    experience that augmented and virtual reality provide. Critics, on the other hand, argue that
+                    prolonged used of these products leads to added issues regarding eyesight deterioration and video
+                    game addiction.
+                </p>
+            </div>
+
+            <h2><b>Differences Between Virtual And Augmented Reality</b></h2>
+            <div>
+                <p>
+                    Relatively speaking, VR is utilized to a higher extent in both standalone and PC-connected
+                    headsets.
+                </p>
+                <p>
+                    PC headsets can provide the highest quality in both digital images and interaction as they are
+                    linked to a much faster processor. The drawback to these products is the lack of mobility and
+                    maneuverability within simulations, as well as the added risk of tangling or disconnecting the
+                    wires that connect these headsets to immobile machines.These devices are best suited for programs
+                    that simulate user within a sitting-down position or in cases where minimal movement is required.
+                    Great examples of PC headsets are the HTC Vive, Oculus Rift, and PlayStation VR.
+                </p>
+                <p>
+                    Standalone headsets, on the other hand, provide much more flexibility in movement as they carry
+                    small and lightweight processors integrated within the devices. These headsets are more accessible
+                    to the public and can be connected to smartphones and small devices, however it is important to
+                    always take note of one’s surrounding as these headsets may or may not provide any indications of
+                    bumping into physical obstacles in the real surroundings. Products like the Samsung Gear VR are
+                    cheap, readily available, and can even be bundled with purchases of certain mobile devices.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    <footer>
+        <div style="line-height: 20px; border: 1px solid white; padding: 60px; padding-top: 0px; padding-bottom: 10px;">
+            <h2 style="line-height: 0px;">References</h2>
+            <a href="https://www.pcmag.com/article/347242/ar-vs-vr-whats-the-difference" target="_blank" style="color:white;">https://www.pcmag.com/article/347242/ar-vs-vr-whats-the-difference</a>
+            /
+            <a href="https://www.itproportal.com/features/vr-vs-ar-which-will-become-the-dominant-technology/" style="color:white;">https://www.itproportal.com/features/vr-vs-ar-which-will-become-the-dominant-technology/</a>
+            /
+            <a href="https://hackernoon.com/vr-vs-ar-the-battle-of-reality-and-desires-6d5034ff1eec" style="color:white;">https://hackernoon.com/vr-vs-ar-the-battle-of-reality-and-desires-6d5034ff1eec</a>
+            /
+            <a href="https://www.augment.com/blog/virtual-reality-vs-augmented-reality/" style="color:white;">https://www.augment.com/blog/virtual-reality-vs-augmented-reality/</a>
+            /
+            <a href="https://bigthink.com/jake-richardson/vr-vs-ar-whats-the-difference" style="color:white;">https://bigthink.com/jake-richardson/vr-vs-ar-whats-the-difference</a>
+        </div>
+        <div>
+            Copyright © 2018 by Kasey Kaufmann and Edge Ryen
+        </div>
+    </footer>
+</body>
+
+</html>
